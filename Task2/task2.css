@@ -1,0 +1,35 @@
+body {
+    background-image: url("seoul.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 40rem;
+    height: 20rem;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    position: absolute;
+    left: 2rem;
+}
+
+h1 {
+    display: inline;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+ol li {
+    display: inline-block;
+    width: 200px;
+}
+
