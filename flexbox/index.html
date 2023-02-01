@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: goldenrod;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        h2 {
+            color: gold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            background-color: red;
+            color: #333;
+            margin: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hero-banner {
+            background: url("Testing.jpeg") no-repeat center center/cover;
+            height: 70vh;
+        }
+
+        #right {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media(min-width: 576px) {
+            header {
+                background-color: yellow;
+                padding: 1rem;
+            }
+
+            .box {
+                background-color: yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            #right {
+                display: flex;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+            }
+
+            #hero-banner {
+                background: url("Testing.jpeg") no-repeat center center/cover;
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Taming
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero-banner">
+            <h2>Welcome to my portfolio</h2>
+        </section>
+        <section class="box">1</section>
+        <section class="box">2</section>
+        <section class="box">3</section>
+        <section class="box">4</section>
+        <section class="box">5</section>
+
+        <section id="right">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </section>
+    </main>
+    
+</body>
+</html>
